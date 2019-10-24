@@ -70,7 +70,7 @@ h1 {
   color: #1abc9c;
 }
 .content {
-  background-image: url(./assets/img/header.jpg);
+  background-image: url(../assets/img/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 100px;
@@ -100,11 +100,11 @@ h1 {
   background-color: #1abc9c;
 }
 .left {
-  background-image: url(./assets/img/prev.jpg);
+  background-image: url(../assets/img/prev.jpg);
   left: 0;
 }
 .right {
-  background-image: url(./assets/img/next.jpg);
+  background-image: url(../assets/img/next.jpg);
   right: 0;
 }
 .tours {
@@ -275,25 +275,25 @@ h2 {
   border: 1px solid white;
 }
 .heart {
-  background-image: url(./assets/img/heart.jpg);
+  background-image: url(../assets/img/heart.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: none;
 }
 .share {
-  background-image: url(./assets/img/share.jpg);
+  background-image: url(../assets/img/share.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: none;
 }
 .clock {
-  background-image: url(./assets/img/clock.jpg);
+  background-image: url(../assets/img/clock.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: none;
 }
 .basket {
-  background-image: url(./assets/img/basket.jpg);
+  background-image: url(../assets/img/basket.jpg);
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 12px;
