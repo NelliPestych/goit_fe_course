@@ -206,7 +206,7 @@ h3 {
 }
 
 .form {
-  background-image: url(../images/Map\Image_bg.jpg);
+  background-image: url(../images/MapImage_bg.jpg);
   width: 100%;
   height: 676px;
   object-fit: cover;
@@ -247,6 +247,7 @@ h3 {
   display: table;
   clear: both;
 }
+
 .button {
   border: none;
   border-radius: 3px;
