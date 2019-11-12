@@ -135,7 +135,7 @@ h2::after {
 }
 
 .icon-line_graph::before {
-  background-image: url(../images/line_graph.png);
+  background-image: url(../images/LINE_GRAPH.png);
 }
 
 .icon-computer::before {
@@ -143,11 +143,11 @@ h2::after {
 }
 
 .icon-book::before {
-  background-image: url(../images/book.png);
+  background-image: url(../images/BOOK.png);
 }
 
 .icon-home::before {
-  background-image: url(../images/home.png);
+  background-image: url(../images/HOME.png);
 }
 
 .icon-image::before {
