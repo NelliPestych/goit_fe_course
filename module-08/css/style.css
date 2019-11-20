@@ -14,7 +14,7 @@ html {
 }
 
 .navigation {
-  background-image: url(../images/Vector\ Smart\ Object_mobile.jpg);
+  background-image: url(../images/Vector\Smart\Object_mobile.jpg);
   background-repeat: no-repeat;
   object-fit: cover;
   height: 540px;
@@ -61,11 +61,6 @@ html {
   margin-top: 104px;
 }
 
-.logotip {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
 h2 {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
@@ -75,7 +70,7 @@ h2 {
 }
 
 .find-partner {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: rgb(255, 255, 255);
@@ -133,7 +128,7 @@ h3 {
 }
 
 .hunter {
-  background-image: url(../images/Layer\ 6.png);
+  background-image: url(../images/Layer\6png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -142,7 +137,7 @@ h3 {
 }
 
 .lukas {
-  background-image: url(../images/Layer\ 8.png);
+  background-image: url(../images/Layer\8png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -151,7 +146,7 @@ h3 {
 }
 
 .walker {
-  background-image: url(../images/Layer\ 7.png);
+  background-image: url(../images/Layer\7png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -160,7 +155,7 @@ h3 {
 }
 
 .bradley {
-  background-image: url(../images/Layer\ 9.png);
+  background-image: url(../images/Layer\9png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -180,22 +175,22 @@ h3 {
 }
 
 .tv {
-  background-image: url(../images/Shape\ 128.png);
+  background-image: url(../images/Shape\128png);
   background-color: rgb(255, 78, 80);
 }
 
 .bottle {
-  background-image: url(../images/Shape\ 155.png);
+  background-image: url(../images/Shape\155png);
   background-color: rgb(255, 165, 7);
 }
 
 .coffee {
-  background-image: url(../images/Shape\ 153.png);
+  background-image: url(../images/Shape\153png);
   background-color: rgb(28, 215, 173);
 }
 
 .letter {
-  background-image: url(../images/Shape\ 170.png);
+  background-image: url(../images/Shape\170png);
   background-color: rgb(78, 115, 219);
 }
 
@@ -219,17 +214,39 @@ h3 {
   justify-content: center;
 }
 
+@media (max-width: 767px) {
+  .logotip {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     width: 768px;
   }
 
   .navigation {
-    background-image: url(../images/Vector\ Smart\ Object_tablet2.jpg);
+    background-image: url(../images/Vector\Smart\Object_tablet2.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     height: 700px;
     width: 768px;
+  }
+
+  .logotip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-top: 50px;
+    padding-left: 50px;
+  }
+
+  .log-sign {
+    margin-top: 50px;
   }
 
   .wrapper {
@@ -261,10 +278,54 @@ h3 {
     padding-left: 55px;
   }
 
-  .logotip {
-    flex-direction: row;
+  h2 {
+    margin-top: 120px;
+    font-size: 52px;
   }
 
+  .find-partner {
+    margin-top: -20px;
+    font-size: 24px;
+  }
+
+  .to-find {
+    width: 226px;
+    margin-top: 12px;
+  }
+
+  .see-others {
+    margin-bottom: 40px;
+  }
+
+  .reverse {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .one {
+    order: 1;
+  }
+
+  .two {
+    order: 3;
+  }
+
+  .three {
+    order: 2;
+  }
+  
+  .four {
+    order: 4;
+  }
+
+  h3 {
+    line-height: 120px;
+    text-align: center;
+  }
+
+  .see-others {
+    width: 226px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -273,13 +334,12 @@ h3 {
   }
 
   .navigation {
-    background-image: url(../images/Vector\ Smart\ Object_DT2.jpg);
+    background-image: url(../images/Vector\Smart\Object_DT2.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     height: 700px;
     width: 1440px;
   }
-  
 
   .wrapper {
     width: 940px;
@@ -309,9 +369,4 @@ h3 {
   .pic-position {
     padding-left: 55px;
   }
-
-  h2 {
-    font-size: 52px;
-  }
-
 }
