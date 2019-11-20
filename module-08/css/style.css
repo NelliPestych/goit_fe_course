@@ -14,7 +14,7 @@ html {
 }
 
 .navigation {
-  background-image: url(../images/Vector\Smart\Object_mobile.jpg);
+  background-image: url(../images/Vector\ Smart\ Object_mobile.jpg);
   background-repeat: no-repeat;
   object-fit: cover;
   height: 540px;
@@ -128,7 +128,7 @@ h3 {
 }
 
 .hunter {
-  background-image: url(../images/Layer\6png);
+  background-image: url(../images/Layer\ 6.png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@ h3 {
 }
 
 .lukas {
-  background-image: url(../images/Layer\8png);
+  background-image: url(../images/Layer\ 8.png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ h3 {
 }
 
 .walker {
-  background-image: url(../images/Layer\7png);
+  background-image: url(../images/Layer\ 7.png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -155,7 +155,7 @@ h3 {
 }
 
 .bradley {
-  background-image: url(../images/Layer\9png);
+  background-image: url(../images/Layer\ 9.png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -175,22 +175,22 @@ h3 {
 }
 
 .tv {
-  background-image: url(../images/Shape\128png);
+  background-image: url(../images/Shape\ 128.png);
   background-color: rgb(255, 78, 80);
 }
 
 .bottle {
-  background-image: url(../images/Shape\155png);
+  background-image: url(../images/Shape\ 155.png);
   background-color: rgb(255, 165, 7);
 }
 
 .coffee {
-  background-image: url(../images/Shape\153png);
+  background-image: url(../images/Shape\ 153.png);
   background-color: rgb(28, 215, 173);
 }
 
 .letter {
-  background-image: url(../images/Shape\170png);
+  background-image: url(../images/Shape\ 170.png);
   background-color: rgb(78, 115, 219);
 }
 
@@ -227,7 +227,7 @@ h3 {
   }
 
   .navigation {
-    background-image: url(../images/Vector\Smart\Object_tablet2.jpg);
+    background-image: url(../images/Vector\ Smart\ Object_tablet2.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     height: 700px;
@@ -334,7 +334,7 @@ h3 {
   }
 
   .navigation {
-    background-image: url(../images/Vector\Smart\Object_DT2.jpg);
+    background-image: url(../images/Vector\ Smart\ Object_DT2.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     height: 700px;
