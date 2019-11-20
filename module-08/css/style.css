@@ -1,0 +1,316 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 320px;
+  text-align: center;
+}
+
+.navigation {
+  background-image: url(../images/Vector\ Smart\ Object_mobile.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 540px;
+  width: 320px;
+}
+
+.log-sign {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.log-sign li {
+  width: 90px;
+  height: 36px;
+}
+
+.log-sign li:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.log-sign a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 104px;
+}
+
+.logotip {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.find-partner {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: -8px;
+}
+
+.to-find {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 280px;
+  height: 40px;
+  border: none;
+}
+
+h3 {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.name {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+}
+
+.text-about {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(102, 102, 102);
+  font-weight: 300;
+  line-height: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pic-position {
+  width: 320px;
+  padding-left: 100px;
+}
+
+.avatar {
+  text-align: right;
+  line-height: 224px;
+  overflow: hidden;
+}
+
+.hunter {
+  background-image: url(../images/Layer\ 6.png);
+  height: 120px;
+  width: 120px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-position: center;
+}
+
+.lukas {
+  background-image: url(../images/Layer\ 8.png);
+  height: 120px;
+  width: 120px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-position: center;
+}
+
+.walker {
+  background-image: url(../images/Layer\ 7.png);
+  height: 120px;
+  width: 120px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-position: center;
+}
+
+.bradley {
+  background-image: url(../images/Layer\ 9.png);
+  height: 120px;
+  width: 120px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-position: center;
+}
+
+.status {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tv {
+  background-image: url(../images/Shape\ 128.png);
+  background-color: rgb(255, 78, 80);
+}
+
+.bottle {
+  background-image: url(../images/Shape\ 155.png);
+  background-color: rgb(255, 165, 7);
+}
+
+.coffee {
+  background-image: url(../images/Shape\ 153.png);
+  background-color: rgb(28, 215, 173);
+}
+
+.letter {
+  background-image: url(../images/Shape\ 170.png);
+  background-color: rgb(78, 115, 219);
+}
+
+.see-others {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  width: 280px;
+  height: 40px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 78, 80);
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+  margin-bottom: 56px;
+}
+
+.partner {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .navigation {
+    background-image: url(../images/Vector\ Smart\ Object_tablet2.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 700px;
+    width: 768px;
+  }
+
+  .wrapper {
+    width: 492px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .text-about {
+    padding: 0;
+    margin: 0;
+  }
+
+  .tofloat2 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 230px;
+    height: 260px;
+  }
+
+  .tofloat1 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 230px;
+    height: 260px;
+  }
+
+  .pic-position {
+    padding-left: 55px;
+  }
+
+  .logotip {
+    flex-direction: row;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+
+  .navigation {
+    background-image: url(../images/Vector\ Smart\ Object_DT2.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 700px;
+    width: 1440px;
+  }
+
+  .wrapper {
+    width: 940px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .text-about {
+    padding: 0;
+    margin: 0;
+  }
+
+  .tofloat2 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 230px;
+    height: 260px;
+  }
+
+  .tofloat1 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 230px;
+    height: 260px;
+  }
+
+  .pic-position {
+    padding-left: 55px;
+  }
+
+  h2 {
+    font-size: 52px;
+  }
+
+}
