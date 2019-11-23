@@ -322,15 +322,16 @@ h3 {
 
 @media (min-width: 1440px) {
   .container {
-    width: 1440px;
+    min-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .navigation {
     background-image: url(../images/VectorSmartObject_DT2.jpg);
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
     height: 700px;
-    width: 1440px;
   }
 
   .wrapper {
