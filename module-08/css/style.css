@@ -9,16 +9,17 @@ html {
 }
 
 .container {
-  width: 320px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
 }
 
 .navigation {
-  background-image: url(../images/Vector\ Smart\ Object_mobile.jpg);
+  background-image: url(../images/VectorSmartObject_mobile.jpg);
   background-repeat: no-repeat;
-  object-fit: cover;
+  background-size: cover;
   height: 540px;
-  width: 320px;
 }
 
 .log-sign {
@@ -74,8 +75,8 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: rgb(255, 255, 255);
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 54px;
+  padding-right: 54px;
   margin-top: -8px;
 }
 
@@ -112,32 +113,33 @@ h3 {
   color: rgb(102, 102, 102);
   font-weight: 300;
   line-height: 18px;
-  padding-left: 30px;
-  padding-right: 30px;
+  width: 230px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .pic-position {
-  width: 320px;
-  padding-left: 100px;
+  width: 100%;
 }
 
 .avatar {
   text-align: right;
   line-height: 224px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .hunter {
-  background-image: url(../images/Layer\ 6.png);
+  background-image: url(../images/Layer6.png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
-  object-fit: contain;
   background-position: center;
+  background-size: cover;
 }
 
 .lukas {
-  background-image: url(../images/Layer\ 8.png);
+  background-image: url(../images/Layer8.png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -146,7 +148,7 @@ h3 {
 }
 
 .walker {
-  background-image: url(../images/Layer\ 7.png);
+  background-image: url(../images/Layer7.png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -155,7 +157,7 @@ h3 {
 }
 
 .bradley {
-  background-image: url(../images/Layer\ 9.png);
+  background-image: url(../images/Layer9.png);
   height: 120px;
   width: 120px;
   background-repeat: no-repeat;
@@ -175,22 +177,22 @@ h3 {
 }
 
 .tv {
-  background-image: url(../images/Shape\ 128.png);
+  background-image: url(../images/Shape128.png);
   background-color: rgb(255, 78, 80);
 }
 
 .bottle {
-  background-image: url(../images/Shape\ 155.png);
+  background-image: url(../images/Shape155.png);
   background-color: rgb(255, 165, 7);
 }
 
 .coffee {
-  background-image: url(../images/Shape\ 153.png);
+  background-image: url(../images/Shape153.png);
   background-color: rgb(28, 215, 173);
 }
 
 .letter {
-  background-image: url(../images/Shape\ 170.png);
+  background-image: url(../images/Shape170.png);
   background-color: rgb(78, 115, 219);
 }
 
@@ -218,20 +220,23 @@ h3 {
   .logotip {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    width: 768px;
+    min-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .navigation {
-    background-image: url(../images/Vector\ Smart\ Object_tablet2.jpg);
+    background-image: url(../images/VectorSmartObject_tablet2.jpg);
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
     height: 700px;
-    width: 768px;
   }
 
   .logotip {
@@ -260,22 +265,11 @@ h3 {
     margin: 0;
   }
 
-  .tofloat2 {
+  .toflex {
     display: inline-flex;
     flex-direction: column;
     width: 230px;
     height: 260px;
-  }
-
-  .tofloat1 {
-    display: inline-flex;
-    flex-direction: column;
-    width: 230px;
-    height: 260px;
-  }
-
-  .pic-position {
-    padding-left: 55px;
   }
 
   h2 {
@@ -295,6 +289,7 @@ h3 {
 
   .see-others {
     margin-bottom: 40px;
+    width: 226px;
   }
 
   .reverse {
@@ -323,9 +318,6 @@ h3 {
     text-align: center;
   }
 
-  .see-others {
-    width: 226px;
-  }
 }
 
 @media (min-width: 1440px) {
@@ -334,7 +326,7 @@ h3 {
   }
 
   .navigation {
-    background-image: url(../images/Vector\ Smart\ Object_DT2.jpg);
+    background-image: url(../images/VectorSmartObject_DT2.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     height: 700px;
@@ -352,21 +344,4 @@ h3 {
     margin: 0;
   }
 
-  .tofloat2 {
-    display: inline-flex;
-    flex-direction: column;
-    width: 230px;
-    height: 260px;
-  }
-
-  .tofloat1 {
-    display: inline-flex;
-    flex-direction: column;
-    width: 230px;
-    height: 260px;
-  }
-
-  .pic-position {
-    padding-left: 55px;
-  }
 }
