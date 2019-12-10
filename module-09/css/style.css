@@ -26,6 +26,7 @@ html {
   list-style: none;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .log-sign li {
@@ -283,12 +284,16 @@ h3 {
     margin-top: 10px;
     margin-bottom: 40px;
   }
+  
+  .log-sign {
+    padding-left: 0;
+  }
 
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .wrap {
-    min-width: 1440px;
+    min-width: 1200px;
     width: 100%;
     margin: 0 auto;
   }
