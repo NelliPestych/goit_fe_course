@@ -1,0 +1,14 @@
+.service-list__item {
+    flex: 0 0 392px;
+    margin-bottom: 100px;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 92px;
+      height: 70px;
+      background-repeat: no-repeat;
+      background-position: top;
+      float: left;
+    }
+  }

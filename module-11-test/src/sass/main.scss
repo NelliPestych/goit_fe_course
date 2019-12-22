@@ -2,8 +2,29 @@
  * Все паршалы импортировать в этот файл
  */
 
+@import 'helper/helper/variables.scss';
 @import 'normalize.scss';
 @import 'base.scss';
-
-@import 'header.scss';
-@import 'footer.scss';
+@import 'components/wrapper.scss';
+@import 'components/page-header.scss';
+@import 'components/page-header__logo.scss';
+@import 'components/page-header__navigation.scss';
+@import 'components/greeting.scss';
+@import 'components/greeting__template.scss';
+@import 'components/greeting__message.scss';
+@import 'components/greeting__btn.scss';
+@import 'components/section__title.scss';
+@import 'components/h2.scss';
+@import 'components/service.scss';
+@import 'components/service-list.scss';
+@import 'components/service-list__item.scss';
+@import 'components/service-list__icon.scss';
+@import 'components/h3.scss';
+@import 'service-list__text.scss';
+@import 'components/our-team__text.scss';
+@import 'components/users__card.scss';
+@import 'components/user-menu.scss';
+@import 'components/footer.scss';
+@import 'components/line.scss';
+@import 'components/designer.scss';
+@import 'components/form.scss';
